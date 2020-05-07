@@ -17,7 +17,7 @@ node {
     sh label: 'Deploy Infrastructure', script: "/usr/bin/terraform apply plan"
   }
  }
-}
+
 post {
   always {
     cleanWs()
