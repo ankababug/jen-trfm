@@ -11,9 +11,5 @@ variable "sub_cidr" {
 variable "azn" {
     default= "us-east-1d"
 }
-variable "access" {
-    default= "AKIA5JFDDJIFCQBU2NMB"
-}
-variable "secret" {
-    default= "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"
-}
+variable "access" { }
+variable "secret" { }
